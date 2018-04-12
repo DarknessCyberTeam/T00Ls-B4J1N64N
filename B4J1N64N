@@ -361,10 +361,10 @@ toilet -f slant -F gay "Mr.B4J1N64N"
 pkg install update && pkg install upgrade
 pkg install git
 pkg install php
-cd
+git clone https://github.com/Cvar1984/sqlscan
 cd T00Ls-B4J1N64N
-ls
-cd module
+cd sqlscan
+chmod a+x sqlscan.php
 php sqlscan.php
 fi
 
